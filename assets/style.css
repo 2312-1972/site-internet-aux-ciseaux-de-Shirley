@@ -1,0 +1,17 @@
+ body {
+  margin: 0;
+  padding: 0;display: flex;justify-content: center;
+} 
+header{display: flex;
+justify-content: center;
+width:1440px;
+height:400px;
+
+}
+.bloclogo{
+  display: flex;
+  width: 350px;
+  
+border: 4px solid #929292;
+-o-object-fit: cover;
+}
