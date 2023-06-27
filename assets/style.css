@@ -1,17 +1,65 @@
- body {
-  margin: 0;
-  padding: 0;display: flex;justify-content: center;
-} 
-header{display: flex;
-justify-content: center;
-width:1440px;
-height:400px;
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap");
 
-}
-.bloclogo{
+body {
+  margin: 0;
+  padding: 0;
   display: flex;
-  width: 350px;
-  
-border: 4px solid #929292;
--o-object-fit: cover;
+  justify-content: center;
+}
+header {
+  display: flex;
+
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 440px;
+  height: 700px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.menu {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  height: 600px;
+}
+.bloclogo {
+  display: flex;
+  width: 280px;
+
+  border: 4px solid #929292;
+}
+
+body {
+  min-height: 100vh;
+  font-family: "Josefin Sans", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  font-size: 3rem;
+}
+#target {
+  display: flex;
+  margin-left: 1rem;
+  position: relative;
+}
+#target::after {
+  content: "";
+  position: absolute;
+  height: 3rem;
+  width: 5px;
+  background: black;
+  top: 0;
+  transform: translateY(-4px);
+  right: -5px;
+  animation: anim 0.8s linear infinite;
+}
+@keyframes anim {
+  50% {
+    opacity: 0.1;
+  }
+  100% {
+    opacity: 1;
+  }
 }
