@@ -6,7 +6,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: #c5d8bf;
+  background:  linear-gradient(to bottom, #c5d8bf, #ffffff, #c5d8bf );
 }
 h1 h2 h3 h4{
   font-family: 'Montserrat';
@@ -35,14 +35,15 @@ h2{
 .nav{
   display: flex;
   justify-content:center;
- border-bottom: 1px solid black;
+ /* border-bottom: 1px solid black; */
  box-shadow: #c5d8bf;
 }
 .divnav{
   display: flex;
  width: 500px;
   justify-content: space-between;
- 
+  /* border: 1px solid black; */
+  border-radius: 10px;
   margin: 5px;
   padding: 5px;
 }
@@ -56,6 +57,8 @@ h2{
   display: flex;
   gap: 30px;
   align-items: center;
+  /* border-bottom: 1px solid black; */
+  margin-bottom: 50px;
 }
 .apropos{
   background-color: azure;
@@ -72,9 +75,64 @@ h2{
   display: flex;
   gap: 20px;
   padding-left: 20px;
-}
+  margin-top: 20px;
+  justify-content: space-around;
+  }
+ 
 .image{
   width: 300px;
   height: 400px;
   border: 1px solid white;
+  border-radius: 5px;
+  box-shadow: 20px 20px 40px rgba(0, 0, 0, 0.4);
+}
+
+input[type=text], textarea, input[type=email] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  margin-right: 0px;
+  margin-left: 0px;
+  resize: vertical;
+  background-color: #c5d8bf;
+}
+label{margin-right: 0px;
+  margin-left: 0px;
+  width: 100%;}
+
+input[type=submit] {
+  background-color: black;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #c5d8bf;
+  color: black;
+}
+
+.container {
+ 
+  box-sizing : border-box;
+  border-radius:5px;
+  background-color:#f2f2f2;
+  padding:20px;
+  width: 100%;
+  max-width: 440px;
+  margin: auto;
+  margin-top: 80px;
+  margin-bottom: 50px;
+  box-shadow: 20px 20px 40px rgba(0, 0, 0, 0.4);
+}
+.titleform  {
+  color: black;
+  width: 100%;
+  
 }
