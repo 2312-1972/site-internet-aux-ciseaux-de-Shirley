@@ -8,6 +8,7 @@
     <title>Aux ciseaux de Shirley</title>
     <script src="script.js" defer></script>
     <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="assets/animations.css">
     <link rel="apple-touch-icon" sizes="180x180" href="images/favicon_io/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="images/favicon_io/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="images/favicon_io/favicon-16x16.png">
@@ -20,15 +21,25 @@
             <img class="bloclogo" src="./images/8.webp" alt="Aux ciseaux de Shirley">
         </div>
     </header>
-     <nav class="nav">
-        <div class="divnav">
-            <h2 class="h2nav"> Célébration</h2>
-<h2 class="h2nav">Homme</h2>
-<h2 class="h2nav">Enfant</h2>
-<h2 class="h2nav">Contact</h2>
-</div>
-        </nav>
     
+     <!-- <nav class="nav">
+        <div class="divnav">
+            <h2 class="h2nav "><a class="link" href="#celebration">Célébration</a></h2>
+            <h2 class="h2nav"><a class="link" href="#carre">Femme</a></h2>
+            <h2 class="h2nav"><a class="link" href="#homme">Homme</a></h2>
+            <h2 class="h2nav"><a class="link" href="#enfant">Enfant</a></h2>
+            <h2 class="h2nav"><a class="link" href="#contact">Contact</a></h2>
+</div>
+        </nav> -->
+        <nav class="nav">
+        <div class="containe gray highlightTextIn">
+            <a href="#celebration" alt="CELEBRATION">CELEBRATION</a>
+            <a href="#carre" alt="FEMME">FEMME</a>
+            <a href="#homme" alt="HOMME">HOMME</a>
+            <a href="#enfant" alt="ENFANT">ENFANT</a>
+            <a href="#contact" alt="CONTACT">CONTACT</a>
+          </div>
+        </nav>
     <section class="about"> 
     
         <img class="portrait" src="./images/shirley.webp" alt="shirley">
@@ -41,9 +52,11 @@
             Je serai votre coiffeuse à domicile dévouée et passionnée ! Shirley apporte son talent exceptionnel et son savoir-faire directement à votre porte, 
             pour vous offrir une expérience de coiffure unique et personnalisée.
     </h3>
+  
     </section>
-    
+    <h3 class="titlesection">Célébrations et Mariages.</h3>
 <section class="chignon" id="celebration">
+    
     <div>
     <img class="image" src="./images/chignon1.webp" alt="1er chignon">
 </div>
@@ -60,6 +73,7 @@
 </div>
 
 </section>
+<h3 class="titlesection">Célébrations et Mariages</h3>
 <section class="chignon" id="carre">
     <img class="image" src="./images/carre1.webp" alt="1er carré">
 </div>
@@ -72,8 +86,8 @@
     <img class="image" src="./images/carre3.webp" alt="3eme carré">
 </div>
 </section>
-
-<section class="chignon " id="roux">
+<h3 class="titlesection">Célébrations et Mariages</h3>
+<section class="chignon " >
 <div>
 <img class="image" src="./images/blond1.webp" alt="3eme chignon">
 </div>
@@ -89,7 +103,41 @@
 <img class="image" src="./images/roux2.webp" alt="3eme chignon">
 </div>
 </section>
-   <div class="container">
+<h3 class="titlesection">Célébrations et Mariages</h3>
+<section class="chignon " id="homme">
+    <div>
+    <img class="image" src="" alt="">
+    </div>
+    </div>
+    <div>
+    <img class="image" src="" alt="">
+    </div>
+    <div>
+    <img class="image" src="" alt="">
+    </div>
+    </div>
+    <div>
+    <img class="image" src="" alt="">
+    </div>
+    </section>
+    <h3 class="titlesection">Célébrations et Mariages</h3>
+    <section class="chignon " id="enfant">
+        <div>
+        <img class="image" src="" alt="">
+        </div>
+        </div>
+        <div>
+        <img class="image" src="" alt="">
+        </div>
+        <div>
+        <img class="image" src="" alt="">
+        </div>
+        </div>
+        <div>
+        <img class="image" src="" alt="">
+        </div>
+        </section>
+   <div class="container" id="contact">
         <h1 class="titleform">Formulaire de contact</h1>
         <form action="/action_page.php">
           <label for="fname">Nom & prénom</label>
