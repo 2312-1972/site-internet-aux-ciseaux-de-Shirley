@@ -1,6 +1,7 @@
 // src/pages/Home.js
 import React from 'react';
 import Shirley from '../images/shirley.webp';
+// import Video1 from '../images/video1.mp4';
 
 const Home = () => (
   <div>
@@ -15,7 +16,11 @@ const Home = () => (
             Je serai votre coiffeuse à domicile dévouée et passionnée ! Shirley apporte son talent exceptionnel et son savoir-faire directement à votre porte, 
             pour vous offrir une expérience de coiffure unique et personnalisée.
       </h3>
-    </section>
+      </section>
+      {/* <video width="300"  controls>  
+        <source src={Video1} type="video/mp4" />
+        Your browser does not support the video tag.
+      </video> */}
   </div>
 );
 

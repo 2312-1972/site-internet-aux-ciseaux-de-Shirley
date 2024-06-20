@@ -7,6 +7,7 @@ import Home from './pages/Home';
 import Femmes from './pages/Femmes';
 import Hommes from './pages/Hommes';
 import Mariages from './pages/Mariages';
+import Contact from './pages/Contact';
 
 const App = () => (
   <Router>
@@ -18,6 +19,7 @@ const App = () => (
         <Route path="/femmes" element={<Femmes />} />
         <Route path="/hommes" element={<Hommes />} />
         <Route path="/mariages" element={<Mariages />} />
+        <Route path="/Contact" element={<Contact />} />
       </Routes>
     </div>
   </Router>
