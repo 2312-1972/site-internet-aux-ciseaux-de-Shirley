@@ -71,7 +71,7 @@ h2{
   display: flex;
   gap: 30px;
   align-items: center;
-  /* border-bottom: 1px solid black; */
+ 
   margin-bottom: 50px;
 }
 .apropos{
@@ -81,19 +81,21 @@ h2{
   box-shadow: 20px 20px 40px rgba(0, 0, 0, 0.4);
 }
 .portrait{
-  width: 300px;
-  height: 300px;
+  width: 20%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
   border-radius: 50%;
   border: 1px solid white;
   box-shadow: 20px 20px 40px rgba(0, 0, 0, 0.4);
 }
-.chignon{
+.chignon {
   display: flex;
-  gap: 20px;
-  padding-left: 20px;
-  margin-top: 20px;
-  justify-content: space-around;
-  }
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  
+}
  
 .image{
   width: 300px;

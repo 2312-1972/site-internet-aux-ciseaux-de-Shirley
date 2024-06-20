@@ -1,14 +1,13 @@
-// src/pages/Hommes.js
 import React from 'react';
+import photos from '../photos.json';
 
 const Hommes = () => (
   <div>
     <h3 className="titlesection">Hommes</h3>
-    <section className="chignon" id="homme">
-      <img className="image" src="./images/IMG_6730.webp" alt="" />
-      <img className="image" src="./images/IMG_6731.jpg" alt="" />
-      <img className="image" src="./images/IMG_6732.webp" alt="" />
-      <img className="image" src="./images/IMG_6734.webp" alt="" />
+    <section className="chignon">
+      {photos.hommes.map((photo, index) => (
+        <img key={index} className="image" src={photo.src} alt={photo.alt} />
+      ))}
     </section>
   </div>
 );

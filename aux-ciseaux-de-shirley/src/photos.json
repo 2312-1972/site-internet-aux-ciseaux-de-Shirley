@@ -1,0 +1,97 @@
+{
+    "home": [
+      {
+        "src": "/images/shirley.webp",
+        "alt": "shirley"
+      },
+      {
+        "src": "/videos/video1.mp4",
+        "alt": "video de presentation"
+      }
+    ],
+    "celebrations": [
+      {
+        "src": "/images/chignon1.webp",
+        "alt": "1er chignon"
+      },
+      {
+        "src": "/images/chignon2.webp",
+        "alt": "2eme chignon"
+      },
+      {
+        "src": "/images/chignon3.webp",
+        "alt": "3eme chignon"
+      },
+      {
+        "src": "/images/chignon4.webp",
+        "alt": "4eme chignon"
+      }
+    ],
+    "femmes": [
+      {
+        "src": "/images/carre1.webp",
+        "alt": "1er carré"
+      },
+      {
+        "src": "/images/carre2.webp",
+        "alt": "2eme carré"
+      },
+      {
+        "src": "/images/carre3.webp",
+        "alt": "3eme carré"
+      },
+      {
+        "src": "/images/blond1.webp",
+        "alt": "cheveux blond 1"
+      },
+      {
+        "src": "/images/blond2.webp",
+        "alt": "cheveux blond 2"
+      },
+      {
+        "src": "/images/roux1.webp",
+        "alt": "cheveux roux 1"
+      },
+      {
+        "src": "/images/roux2.webp",
+        "alt": "cheveux roux 2"
+      }
+    ],
+    "hommes": [
+      {
+        "src": "/images/IMG_6730.webp",
+        "alt": "homme 1"
+      },
+      {
+        "src": "/images/IMG_6731.jpg",
+        "alt": "homme 2"
+      },
+      {
+        "src": "/images/IMG_6732.webp",
+        "alt": "homme 3"
+      },
+      {
+        "src": "/images/IMG_6734.webp",
+        "alt": "homme 4"
+      }
+    ],
+    "enfants": [
+      {
+        "src": "/images/20240116_123317.jpg",
+        "alt": "enfant 1"
+      },
+      {
+        "src": "/images/20240116_123317.jpg",
+        "alt": "enfant 2"
+      },
+      {
+        "src": "/images/20240116_123317.jpg",
+        "alt": "enfant 3"
+      },
+      {
+        "src": "/images/20240116_123317.jpg",
+        "alt": "enfant 4"
+      }
+    ]
+  }
+  
